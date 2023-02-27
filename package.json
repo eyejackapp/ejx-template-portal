@@ -1,0 +1,24 @@
+{
+  "name": "@eyejack/ejx-template-portal",
+  "description": "EyeJack X Template for creating Three.js Portal experiences for WebXR.",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "publish": "ejx publish < /dev/tty"
+  },
+  "devDependencies": {
+    "@types/three": "^0.149.0",
+    "three": "^0.149.0",
+    "vite": "^4.1.0",
+    "vite-plugin-mkcert": "^1.13.0"
+  },
+  "dependencies": {
+    "@eyejack/ejx": "^0.6.1",
+    "@eyejack/ejx-launcher-button": "^0.0.5",
+    "three": "^0.149.0"
+  }
+}
