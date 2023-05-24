@@ -2,7 +2,7 @@
   "name": "@eyejack/ejx-template-portal",
   "description": "EyeJack X Template for creating Three.js Portal experiences for WebXR.",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@eyejack/ejx": "^0.6.1",
-    "@eyejack/ejx-launcher-button": "^0.5.0",
+    "@eyejack/ejx-launcher-button": "^0.6.0",
     "three": "^0.149.0"
   }
 }
