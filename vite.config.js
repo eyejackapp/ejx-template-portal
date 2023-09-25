@@ -1,5 +1,4 @@
 import { defineConfig } from 'vite';
-import mkcert from 'vite-plugin-mkcert';
 
 export default defineConfig({
   base: '',
@@ -7,7 +6,7 @@ export default defineConfig({
     https: true,
     port: 3000,
   },
-  plugins: [mkcert()],
+  plugins: [],
   assetsInclude: ['**/*.bin', '**/*.gltf', '**/*.jpg', '**/*.hdr'],
   build: {
     target: "esnext",
